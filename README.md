@@ -1,4 +1,4 @@
 # imw-jiordan
-Depository for IMW Demo
+Repository for IMW Demo
 
-work in progress for Interactive Media Web
+Work in progress for Interactive Media Web

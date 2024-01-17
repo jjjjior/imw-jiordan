@@ -1,0 +1,111 @@
+.body{
+    background-color: #515151;
+}
+
+.painting-2{
+    display: grid;
+    width: 500px;
+    height:500px;
+    /* border:1px solid black; */
+    border-top: 15px solid #885732; /*frame*/
+    border-left: 15px solid #885732;
+    border-bottom: 15px solid #512f15;
+    border-right: 15px solid #512f15;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+}
+
+
+/* Direction Elements */
+.interactionPainting{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 94%;
+    left: 50%;
+}
+
+
+/* Caption Elements */
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 32.35%;
+    top: 75%;
+    transform: translate(0, -50%);
+}
+
+.h1{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 18pt;
+}
+
+.h2{
+    font-size: 12pt;
+}
+
+
+/* Colours */
+.midnightblue{
+    background-color: #263144;
+}
+
+.pistachiogreen{
+    background-color: #DDEFC9;
+}
+
+.yellow{
+    background-color: #F4C346;
+}
+
+.lightblue{
+    background-color: #3A82DD;
+}
+
+.green{
+    background-color: #4F9C72;
+}
+
+.pink{
+    background-color: #F6D8D4;
+}
+
+.blue{
+    background-color: #1C42B8;
+}
+
+.lightred{
+    background-color: #D74A44;
+}
+
+.darkorange{
+    background-color: #EC724C;
+}
+
+.darkred{
+    background-color: #BD4544;
+}
+
+.black{
+    background-color: #1E1C1F;
+}
+
+.orange{
+    background-color: #F0A050;
+}
+
+.border-right-olive{
+    border-right: 10px solid #979240;
+}
+
+.border-top-lighterblue{
+    border-top: 10px solid #4BA2D6;
+}
+
+.border-top-lightblue{
+    border-top: 10px solid #3A82DD;
+}

@@ -1,0 +1,103 @@
+.body{
+    background-color: #515151;
+}
+
+.painting-3{
+    display: grid;
+    width: 600px;
+    height:600px;
+    /* border:1px solid black; */
+    border-top: 15px solid #885732; /*frame*/
+    border-left: 15px solid #885732;
+    border-bottom: 15px solid #512f15;
+    border-right: 15px solid #512f15;
+    grid-template-columns: repeat(40, 1fr);
+    grid-template-rows: repeat(40, 1fr);
+    position: absolute;
+    left: 50%;
+    top: 7.5%;
+    transform: translate(-50%);
+}
+
+
+/* Direction Elements */
+.interactionPainting{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 94%;
+    left: 50%;
+}
+
+
+/* Caption Elements */
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 29%;
+    top: 84%;
+    transform: translate(0, -50%);
+}
+
+.h1{
+    font-weight: bold;
+    /* font-variant: small-caps; */
+    font-size: 18pt;
+}
+
+.h2{
+    font-size: 12pt;
+}
+
+
+/* Colours */
+.background{
+    background-color: #B0E9AC;
+}
+
+.blue1{
+    background-color: #BFE4FE;
+}
+
+.blue2{
+    background-color: #97D5FE;
+}
+
+.blue3{
+    background-color: #61A1D8;
+}
+
+.blue4{
+    background-color: #325295;
+}
+
+.blue5{
+    background-color: #9ABEDB;
+}
+
+.blue6{
+    background-color: #667DA6;
+}
+
+.orange1{
+    background-color: #E59E07;
+}
+
+.orange2{
+    background-color: #DB7904;
+}
+
+.orange3{
+    background-color: #C07705;
+}
+
+.black{
+    background-color: #000000;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.brown{
+    background-color: #6B3002;
+}

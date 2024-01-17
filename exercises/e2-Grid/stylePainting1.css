@@ -1,0 +1,75 @@
+.body{
+    background-color: #D9D9D9;
+}
+
+.painting-1{
+    display: grid;
+    width: 600px;
+    height:600px;
+    /* border:1px solid black; */
+    border-top: 15px solid #885732; /*frame*/
+    border-left: 15px solid #885732;
+    border-bottom: 15px solid #512f15;
+    border-right: 15px solid #512f15;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    position: absolute;
+    left: 50%;
+    top: 7.5%;
+    transform: translate(-50%);
+}
+
+
+/* Direction Elements */
+.interactionPainting{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 94%;
+    left: 50%;
+}
+
+
+/* Caption Elements */
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 29%;
+    top: 84%;
+    transform: translate(0, -50%);
+}
+
+.h1{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 18pt;
+}
+
+.h2{
+    font-size: 12pt;
+}
+
+
+/* Colours */
+.cream{
+    background-color: #FDFAEB;
+}
+
+.red{
+    background-color: #ec4942;
+}
+
+.blue{
+    background-color: #4497c1;
+}
+
+.yellow{
+    background-color: #FCDE02;
+}
+
+.border-right{
+    border-right: 20px solid #484847;
+}
+
+.border-bottom{
+    border-bottom: 20px solid #484847;
+}

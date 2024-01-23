@@ -1,0 +1,476 @@
+body{
+    background-color: #846756;
+}
+
+
+/* LAPTOP ELEMENTS */
+.laptop{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    scale: 177.5%;
+    filter: blur(4px);
+}
+.laptopObject{
+    position: absolute;
+    width: 700px;
+    height: 455px;
+    background-color: #ACB7B7;
+    border-radius: 35px;
+    transform: translate(-50%, -50%);
+    box-shadow: #0000004c -20px 20px;
+}
+/* MICROSOFT LOGO */
+.microsoftLogo{
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    transform: translate(-50%, -50%);
+}
+.square1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 1px;
+    background-color: #D9D9D9;
+    top: 0px;
+    left: 0px;
+
+}
+.square2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 1px;
+    background-color: #D9D9D9;
+    top: 0px;
+    left: 35px;
+
+}
+.square3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 1px;
+    background-color: #D9D9D9;
+    top: 35px;
+    left: 35px;  
+}
+.square4{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 1px;
+    background-color: #D9D9D9;
+    top: 35px;
+    left: 0px;
+}
+
+
+/* PHONE ELEMENTS */
+.phone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    scale: 50%; 
+}
+.phoneOuter{
+    position: absolute;
+    width: 571px;
+    height: 1035px;
+    background-color: #1E1E1E;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    box-shadow: #0000004c 10px 0px, #ffffff38 -50px 50px 6px inset;
+}
+.phoneInner{
+    position: absolute;
+    width: 508px;
+    height: 976px;
+    background-image: linear-gradient(#a53c3c, #612929);
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    box-shadow:#ffffff38 -20px 20px 6px inset;
+}
+.phoneUpperBar{
+    position: absolute;
+    width: 313px;
+    height: 37px;
+    background-color: #1E1E1E;
+    border-radius: 50px;
+    transform: translate(-50%, -1350%);
+    box-shadow: #ffffff38 -50px 50px 6px inset;
+}
+
+
+/* ARM ELEMENTS */
+.arm{
+    position: absolute;
+    scale: 50%; 
+}
+.sleeve{
+    position: absolute;
+    width: 542px;
+    height: 1128px;
+    background-color: #2E2D2D;
+    border-radius: 217px;
+    top: 885px;
+    left: 1666px;
+    transform: rotate(-30deg);
+    box-shadow:#ffffff38 -50px 50px 6px inset;
+}
+.hand{
+    position: absolute;
+    width: 499px;
+    height: 596px;
+    background-color: #FFF500;
+    border-radius: 0px 0px 250px 250px;
+    top: 805px;
+    left: 1501px;
+    transform: rotate(-24deg);
+    box-shadow: #0000004c 10px 40px,#ffffff75 -18px 5px 6px inset;
+}
+.hand2{
+    position: absolute;
+    width: 112px;
+    height: 481px;
+    background-color: #FFF500;
+    border-radius: 250px;
+    top: 692px;
+    left: 1813px;
+    transform: rotate(-19deg);
+    scale: 100%;
+}
+.thumb{
+    position: absolute;
+    width: 112px;
+    height: 481px;
+    background-color: #FFF500;
+    border-radius: 250px;
+    top: 497px;
+    left: 1697px;
+    transform: rotate(-5deg);
+    scale: 150%;
+}
+
+/* SPOTIFY ELEMENTS */
+.spotifyUI{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    scale: 205%; 
+    transform: translate(-50%, -50%);
+}
+/* MBDTF ALBUM COVER ELEMENTS */
+.album{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    scale: 100%;
+}
+.albumCover{
+    position: absolute;
+    width: 211px;
+    height: 211px;
+    background-color: #e13636;
+    border-radius: 6.5px;
+    transform: translate(-50%, -79%);
+    box-shadow: #0000004c 0px 5px 6px;
+}
+.albumCoverSquare{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(-100deg, rgb(47, 214, 172), rgb(37, 112, 87));
+    transform: translate(-50%, -127%);
+    border: 3px solid #c6bd5e;
+}
+.albumCoverBlack1{
+    position: absolute;
+    top: -42px;
+    left: 5px;
+    width: 60px;
+    height: 5px;
+    background-color: #1E1E1E;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 4px solid #1E1E1E;
+    transform: translate(-50%, -50%) rotate(-2deg);
+}
+.albumCoverBlack2{
+    position: absolute;
+    top: -60px;
+    left: 11px;
+    width: 46px;
+    height: 16px;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    transform: translate(-50%, -50%) rotate(111deg);
+}
+.albumCoverNeck{
+    position: absolute;
+    top: -83px;
+    left: 13px;
+    width: 26px;
+    height: 9px;
+    background-color: #f3cc88;
+    border-radius: 8px;
+    transform: translate(-50%, -50%) rotate(65deg);
+}
+.albumCoverHead{
+    position: absolute;
+    top: -95px;
+    left: 7px;
+    width: 17px;
+    height: 12px;
+    background-color: #f3cc88;
+    border-radius: 8px;
+    transform: translate(-50%, -50%) rotate(71deg);
+}
+.albumCoverLeg1{
+    position: absolute;
+    top: -35.5px;
+    left: 0px;
+    width: 18px;
+    height: 17px;
+    background-color: #f3cc88;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.albumCoverLeg2{
+    position: absolute;
+    top: -35.5px;
+    left: 12px;
+    width: 18px;
+    height: 17px;
+    background-color: #dcb776;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.albumCoverRightArm1{
+    position: absolute;
+    top: -65px;
+    left: 28px;
+    width: 20px;
+    height: 5px;
+    background-color: #f3cc88;
+    border-radius: 8px;
+    transform: translate(-50%, -50%) rotate(57deg);
+}
+.albumCoverRightArm2{
+    position: absolute;
+    top: -52px;
+    left: 28px;
+    width: 20px;
+    height: 4px;
+    background-color: #f3cc88;
+    border-radius: 8px;
+    transform: translate(-50%, -50%) rotate(124deg);
+}
+.albumCoverLeftArm1{
+    position: absolute;
+    top: -70px;
+    left: 4px;
+    width: 34px;
+    height: 6px;
+    background-color: #f3cc88;
+    border-radius: 8px;
+    transform: translate(-50%, -50%) rotate(-16deg);
+}
+.albumCoverBlack3{
+    position: absolute;
+    top: -73px;
+    left: 15px;
+    width: 15px;
+    height: 8px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    transform: translate(-50%, -50%) rotate(-16deg);
+}
+.albumCoverLeftArm2{
+    position: absolute;
+    top: -69px;
+    left: -20px;
+    width: 24px;
+    height: 4px;
+    background-color: #f3cc88;
+    border-radius: 8px;
+    transform: translate(-50%, -50%) rotate(199deg);
+}
+
+
+/* SPOTIFY UI ELEMENTS */
+.line{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    scale: 100%;
+}
+.line1{
+    position: absolute;
+    top: 229px;
+    width: 211px;
+    height: 211px;
+    border-left: 3px solid #ffffff3f;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.line2{
+    position: absolute;
+    top: 229px;
+    left: -73px;
+    width: 211px;
+    height: 66px;
+    border-left: 3px solid #ffffffc9;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+/* PLAY BUTTON ELEMENTS */
+.play{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    scale: 100%;
+}
+.playCircle{
+    position: absolute;
+    top: 168px;
+    left: 0px;
+    width: 45px;
+    height: 45px;
+    border-radius: 105px;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+    box-shadow: #0000004c 0px 5px 6px;
+}
+.playTriangle{
+    position: absolute;
+    top: 159px;
+    left: -6px;
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-left: 17px solid #612929;
+    border-bottom: 9px solid transparent;
+    border-radius: 2px;
+}
+/* FORWARD ELEMENTS */
+.forward{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    scale: 100%;
+}
+.forwardTriangle{
+    position: absolute;
+    top: 157px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-left: 20px solid #ffffff;
+    border-bottom: 11px solid transparent;
+    border-radius: 1px;
+}
+.forwardLine{
+    position: absolute;
+    top: 168px;
+    left: 172.5px;
+    width: 212px;
+    height: 22px;
+    border-left: 3.5px solid #ffffff;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+/* BACKWARD ELEMENTS */
+.backward{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    scale: 100%;
+}
+.backwardTriangle{
+    position: absolute;
+    top: 157px;
+    left: -72px;
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-left: 20px solid #bba6a6;
+    border-bottom: 11px solid transparent;
+    border-radius: 1px;
+    transform: rotate(180deg);
+}
+.backwardLine{
+    position: absolute;
+    top: 168px;
+    left: 34.5px;
+    width: 212px;
+    height: 22px;
+    border-left: 3.5px solid #bba6a6;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+/* LEFT FINGERS ELEMENTS */
+.fingers{
+    position: absolute;
+    scale: 75%;
+    top: 0px;
+    left: 0px;
+}
+.finger1{
+    position: absolute;
+    width: 97px;
+    height: 87px;
+    border-radius: 40%;
+    background-color: #FFF500;
+    top: 498px;
+    left: 774px;
+    transform: translate(-50%,-50%) rotate(13deg);
+    box-shadow: #0000004c 10px 10px;
+}
+.finger2{
+    position: absolute;
+    width: 97px;
+    height: 87px;
+    border-radius: 40%;
+    background-color: #FFF500;
+    top: 572px;
+    left: 774px;
+    transform: translate(-50%,-50%) rotate(13deg);
+    box-shadow: #0000004c 10px 10px;
+}
+.finger3{
+    position: absolute;
+    width: 97px;
+    height: 87px;
+    border-radius: 40%;
+    background-color: #FFF500;
+    top: 650px;
+    left: 774px;
+    transform: translate(-50%,-50%) rotate(13deg);
+    box-shadow: #0000004c 10px 10px;
+}
+.finger4{
+    position: absolute;
+    width: 97px;
+    height: 87px;
+    border-radius: 40%;
+    background-color: #FFF500;
+    top: 722px;
+    left: 774px;
+    transform: translate(-50%,-50%) rotate(13deg);
+    box-shadow: #0000004c 10px -10px;
+}
+
+/* TEXT */
+.text{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: gold;
+}
+h1{
+    font-size: 18pt;
+}
+h2{
+    font-size: 12pt;
+}

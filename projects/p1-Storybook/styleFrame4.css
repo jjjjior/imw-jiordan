@@ -1,0 +1,499 @@
+body{
+    background-color: #D8DDDE;
+}
+ 
+/* FLOOR ELEMENTS */
+.floor{
+    position: absolute;
+    top: 773px;
+    left: 50%;
+    width: 1504px;
+    height: 190px;
+    border-radius: 0px;
+    background-color: #ADA297;
+    transform: translate(-50%, -50%);   
+}
+
+
+/* OUTDOOR ELEMENTS */
+.outdoor{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    scale: 100%; 
+}
+.sky{
+    position: absolute;
+    top: 199px;
+    left: 1066px;
+    width: 875px;
+    height: 402px;
+    border-radius: 0px;
+    background-image: linear-gradient(#8ED7EF, #D1F9FF);
+    transform: translate(-50%, -50%);
+}
+.sun{
+    position: absolute;
+    top: 68px;
+    left: 1383px;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: #FEF7B9;
+    transform: translate(-50%, -50%);
+    filter: blur(10px);
+}
+
+
+/* WINDOW FRAME ELEMENTS */
+.window{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    scale: 100%; 
+}
+.window1{
+    position: absolute;
+    top: 182px;
+    left: 636px;
+    width: 17px;
+    height: 439px;
+    border-radius: 0px;
+    background-color: #8EA5A9;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.window2{
+    position: absolute;
+    top: 398px;
+    left: 1065px;
+    width: 17px;
+    height: 876px;
+    border-radius: 0px;
+    background-color: #8EA5A9;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.window3{
+    position: absolute;
+    top: 211px;
+    left: 1066px;
+    width: 33px;
+    height: 876px;
+    border-radius: 0px;
+    background-color: #8EA5A9;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.window4{
+    position: absolute;
+    top: 305px;
+    left: 1042px;
+    width: 17px;
+    height: 196px;
+    border-radius: 0px;
+    background-color: #8EA5A9;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.window5{
+    position: absolute;
+    top: 211px;
+    left: 1074px;
+    width: 12px;
+    height: 858px;
+    border-radius: 0px;
+    background-color: #AABDC1;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.window6{
+    position: absolute;
+    top: 410px;
+    left: 1065px;
+    width: 17px;
+    height: 876px;
+    border-radius: 0px;
+    background-color: #AABDC1;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.window7{
+    position: absolute;
+    top: 435px;
+    left: 1065px;
+    width: 36px;
+    height: 876px;
+    border-radius: 0px;
+    background-color: #C9D0D1;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.window8{
+    position: absolute;
+    top: 125px;
+    left: 620px;
+    width: 17px;
+    height: 657px;
+    border-radius: 0px;
+    background-color: #C9D0D1;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+
+/* CURTAIN ELEMENTS */
+.curtains{
+    position: absolute;
+    top: 124px;
+    left: 706px;
+    width: 190px;
+    height: 657px;
+    border-radius: 0px 0px 250px 0px;
+    background-color: #913737;
+    transform: translate(-50%, -50%) rotate(0deg); 
+    box-shadow:#ffffff38 -20px 15px inset;
+}
+
+
+/* DESK ELEMENTS */
+.desk{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    scale: 100%; 
+}
+.deskTable{
+    position: absolute;
+    top: 482px;
+    left: 785px;
+    width: 36px;
+    height: 876px;
+    border-radius: 0px;
+    background-color: #846756;
+    transform: translate(-50%, -50%) rotate(90deg);
+    box-shadow:#ffffff38 7px 15px inset;
+}
+.deskStand{
+    position: absolute;
+    top: 622px;
+    left: 362px;
+    width: 29px;
+    height: 275px;
+    border-radius: 0px;
+    background-color: #1D1D1D;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.deskCabinet{
+    position: absolute;
+    top: 622px;
+    left: 1118px;
+    width: 210px;
+    height: 275px;
+    border-radius: 0px;
+    background-color: #1D1D1D;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.deskCabinet1{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    width: 185px;
+    height: 76px;
+    border-radius: 0px;
+    background-color: #121111;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.deskCabinet2{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    width: 185px;
+    height: 76px;
+    border-radius: 0px;
+    background-color: #121111;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.deskCabinet3{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    width: 185px;
+    height: 76px;
+    border-radius: 0px;
+    background-color: #121111;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.deskHandle1{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    width: 30px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: #978863;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.deskHandle2{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    width: 30px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: #978863;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.deskHandle3{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    width: 30px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: #978863;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+
+/* LAMP ELEMENTS */
+.lamp{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    scale: 100%; 
+}
+.lampBase{
+    position: absolute;
+    top: 702px;
+    left: 174px;
+    width: 123px;
+    height: 20px;
+    border-radius: 7px;
+    background-color: #1D1D1D;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.lampStand{
+    position: absolute;
+    top: 644px;
+    left: 174px;
+    width: 123px;
+    height: 10px;
+    border-radius: 7px;
+    background-color: #1D1D1D;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.lampCover{
+    position: absolute;
+    top: 417px;
+    left: 174px;
+    width: 123px;
+    height: 408px;
+    border-radius: 26px;
+    background-color: #EFEDE2;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+
+/* CHAIR ELEMENTS */
+.chair{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    scale: 100%; 
+}
+.chairBack{
+    position: absolute;
+    top: 467px;
+    left: 692px;
+    width: 275px;
+    height: 283px;
+    border-radius: 137px 137px 50px 50px;
+    background-color: #202959;
+    transform: translate(-50%, -50%) rotate(0deg);
+    box-shadow:#ffffff38 -20px 20px inset;
+}
+.chairSeat{
+    position: absolute;
+    top: 510px;
+    left: 692px;
+    width: 214px;
+    height: 283px;
+    border-radius: 137px 137px 75px 75px;
+    background-color: #111943;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.chairStand{
+    position: absolute;
+    top: 597px;
+    left: 690px;
+    width: 20px;
+    height: 275px;
+    border-radius: 6px;
+    background-color: #1D1D1D;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.chairLeg1{
+    position: absolute;
+    top: 745px;
+    left: 742px;
+    width: 20px;
+    height: 107px;
+    border-radius: 6px;
+    background-color: #1D1D1D;
+    transform: translate(-50%, -50%) rotate(110deg);
+}
+.chairLeg2{
+    position: absolute;
+    top: 745px;
+    left: 639px;
+    width: 20px;
+    height: 107px;
+    border-radius: 6px;
+    background-color: #1D1D1D;
+    transform: translate(-50%, -50%) rotate(-110deg);
+}
+.chairWheel1{
+    position: absolute;
+    top: 763px;
+    left: 786px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1D1D1D;
+    transform: translate(-50%, -50%) rotate(110deg);
+}
+.chairWheel2{
+    position: absolute;
+    top: 763px;
+    left: 596px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1D1D1D;
+    transform: translate(-50%, -50%) rotate(110deg);
+}
+.chairArmRestRight{
+    position: absolute;
+    top: 508px;
+    left: 831px;
+    width: 65px;
+    height: 40px;
+    border-radius: 29px;
+    background-color: #1D1D1D;
+    transform: translate(-50%, -50%) rotate(90deg);
+    box-shadow:#ffffff38 10px 10px inset;
+}
+.chairArmRestLeft{
+    position: absolute;
+    top: 508px;
+    left: 553px;
+    width: 65px;
+    height: 40px;
+    border-radius: 29px;
+    background-color: #1D1D1D;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+
+/* PERSON ELEMENTS */
+.person{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    scale: 100%; 
+}
+.head{
+    position: absolute;
+    top: 326px;
+    left: 691px;
+    width: 136px;
+    height: 135px;
+    border-radius: 106px;
+    background-color: #FFF500;
+    transform: translate(-50%, -50%) rotate(0deg);
+    border: #1D1D1D solid 14px;
+}
+.leftMuff{
+    position: absolute;
+    top: 328px;
+    left: 612px;
+    width: 70px;
+    height: 30px;
+    border-radius: 35px 35px 0px 0px;
+    background-color: #1D1D1D;
+    transform: translate(-50%, -50%) rotate(270deg);
+}
+.rightMuff{
+    position: absolute;
+    top: 328px;
+    left: 770px;
+    width: 70px;
+    height: 30px;
+    border-radius: 35px 35px 0px 0px;
+    background-color: #1D1D1D;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.arm1{
+    position: absolute;
+    top: 429px;
+    left: 593px;
+    width: 126px;
+    height: 106px;
+    border-radius: 110px 0px 0px 19px;
+    background-color: #FFF500;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.arm2{
+    position: absolute;
+    top: 429px;
+    left: 789px;
+    width: 126px;
+    height: 106px;
+    border-radius: 0px 110px 19px 0px;
+    background-color: #FFF500;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.leg1{
+    position: absolute;
+    top: 667px;
+    left: 643px;
+    width: 114px;
+    height: 65px;
+    border-radius: 35px;
+    background-color: #FFF500;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.leg2{
+    position: absolute;
+    top: 667px;
+    left: 737px;
+    width: 114px;
+    height: 65px;
+    border-radius: 35px;
+    background-color: #FFF500;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+
+/* TEXT ELEMENTS */
+.text{
+    position: absolute;
+    top: 10%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(31, 5, 36);
+}
+h1{
+    font-size: 18pt;
+}
+h2{
+    font-size: 12pt;
+}
+
+
+/* TEMPLATE FOR SHAPES */
+.template{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 0px;
+    background-color: #FEF7B9;
+    transform: translate(-50%, -50%) rotate(0deg);   
+}

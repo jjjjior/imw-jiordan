@@ -1,0 +1,48 @@
+.monospace{
+    font-family: monospace;
+}
+
+.sabbathBlack{
+    font-family: "sabbath-black", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.josefinSans{
+    font-family: "Josefin Sans", sans-serif;
+    &:hover{
+        animation-name: slide-right;
+        animation-duration: 1s;
+    }
+}
+
+@font-face {
+    font-family: 'Bespoke';
+    src: url('fonts/Bespoke-d-aLB6NOtu.eot');
+    src: url('fonts/Bespoke-d-aLB6NOtu.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Bespoke-d-aLB6NOtu.woff') format('woff'),
+       url('fonts/Bespoke-d-aLB6NOtu.ttf') format('truetype'),
+       url('fonts/Bespoke-d-aLB6NOtu.svg#Bespoke-d-aLB6NOtu') format('svg');
+  }
+
+.selfHosted{
+    font-family: "Bespoke";
+    &:hover{
+        color: red;
+        transform: translateX(10px);
+    }
+}
+
+@keyframes slide-right {
+    to {
+        transform: translateX(0);
+    }
+    from {
+        transform: translateX(10px);
+    }
+}
+
+/* .selfHosted:hover{
+    color: greenyellow;
+    transition: color 750ms;
+} */

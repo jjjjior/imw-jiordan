@@ -1,0 +1,56 @@
+/* h1 text settings */
+h1{
+    text-align: center;
+    font-size: 50pt;
+    margin-top: 7%;
+}
+/* paragraph settings */
+p{
+    text-align: center;
+}
+
+/* Adobe Text Properties */
+.adobe{
+    font-family: "dovetail-mvb", serif, 'Times New Roman';
+    font-weight: 700;
+    font-style: italic;
+    color: cornflowerblue;
+    /* Adobe Text Animation - DISAPPEAR*/
+    &:hover{
+        filter: opacity(0%);
+        transition: filter 1s;
+    }
+}
+
+/* Google Text Properties */
+.google{
+    font-family: 'Sixtyfour', sans-serif, "Verdana";
+    color: gainsboro;
+    /* Adobe Text Animation - GLOW*/
+    &:hover{
+        filter: blur(20px);
+        color: chartreuse;
+        transition: filter 1s, color 1s;
+    }
+}
+
+/* Self Hosted Import Settings */
+@font-face {
+    font-family: 'bespoke';
+    src: url('fonts/Bespoke-d-aLB6NOtu.eot');
+    src: url('fonts/Bespoke-d-aLB6NOtu.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Bespoke-d-aLB6NOtu.woff') format('woff'),
+       url('fonts/Bespoke-d-aLB6NOtu.ttf') format('truetype'),
+       url('fonts/Bespoke-d-aLB6NOtu.svg#Bespoke-d-aLB6NOtu') format('svg');
+  }
+
+  /* Self Hosted Text Properties */
+.selfHosted{
+    font-family: 'bespoke', "bahnshchrift", sans-serif;
+    color: orangered;
+      /* Self Hosted Text Animation - INFLATE */
+    &:hover{
+        scale: 200%;
+        transition: scale 1s;
+    }
+}

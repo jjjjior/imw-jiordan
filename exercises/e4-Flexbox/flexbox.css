@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* LINK PROPERTIES */
+a{
+    text-decoration: none;
+}
+.call-to-action {
+    text-transform: uppercase;
+}
+
+
+/* HEADER SECTION PROPERTIES*/
+
+header {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 36px;
+}
+.site-name {
+    font-size: 36px;
+    font-weight: 500;
+}
+/* HEADER LINKS PROPERTIES */
+ul {
+    list-style-type: none;
+
+    li {
+        font-size: 18px;
+        font-weight: bold;
+        display: inline-block;
+
+        &:first-child {
+            margin-right: 44px;
+        }
+
+        &:nth-child(2) {
+            margin-right: 44px;
+        }
+    }
+}
+
+
+
+/* BODY SECTION PROPERTIES */
+
+/* HERO SECTION PROPERTIES */
+.hero-section {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 120px;
+    line-height: 106px;
+    margin-bottom: 72px;
+}
+
+/* 2ND SUBHEADER PROPERTIES */
+h2 {
+    font-size: 32px;
+    font-weight: 100;
+}
+
+/* 3 CONTENT INFO SECTIONS */
+.info-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 320px;
+    border: 1px solid black;
+}
+.info-section-item {
+    border-left: 1px solid black;
+    padding-top: 30px;
+    padding-right: 38px;
+    padding-left: 36px;
+}
+.infoContent {
+    height: 243px;
+}
+
+/* TEXT WITHIN CONTENT SECTIONS PROPERTIES */
+h3 {
+    font-size: 22px;
+}
+p {
+    font-size: 14px;
+    margin-top: 12px;
+}
+.callToActionInfo{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+
+/* FOOTER SECTION */
+
+footer {
+    padding: 26px 36px 26px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+.about {
+    width: 249px;
+}
+h4 {
+    font-size: 18px;
+}
+.aboutDescription {
+    font-size: 10px;
+    margin-top: 9px;
+}
+.socialLinks {
+    li {
+        font-size: 14px;
+        font-weight: bold;
+
+        &:first-child {
+            margin-right: 28px;
+        }
+
+        &:nth-child(2) {
+            margin-right: 28px;
+        }
+    }
+}
+.otherLinks {
+    li {
+        font-size: 12px;
+        font-weight: bold;
+        display: block;
+
+        &:first-child {
+            padding-bottom: 16px;
+            margin-right: 0px;
+        }
+
+        &:nth-child(2) {
+            padding-bottom: 16px;
+            margin-right: 0px;
+        }
+    }
+}

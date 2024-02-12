@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #002E62;
+}
+
+.adobeNautica{
+    font-family: "nautica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.adobeTradeGothic{
+    font-family: "tgn-soft-round", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.adobeCofoItalic{
+    font-family: "cofo-sans-variable", sans-serif;
+    font-variation-settings: "slnt" -12, "wght" 200;
+}
+.adobeCofoBlack{
+    font-family: "cofo-sans-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 900;
+}
+.adobeCofoBold{
+    font-family: "cofo-sans-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 700;
+}
+.adobeCofoMedium{
+    font-family: "cofo-sans-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 500;
+}
+.adobeCofoRegular{
+    font-family: "cofo-sans-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 400;
+}
+.adobeCofoLight{
+    font-family: "cofo-sans-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 250;
+}
+.adobeCofoHairline{
+    font-family: "cofo-sans-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 100;
+}
+
+
+header{
+    height: 80px;
+    width: 100vw;
+    justify-content: space-between;
+    display: flex;
+}
+.headlineScroll {
+    list-style-type: none;
+    align-items: center;
+    height: 80px;
+
+    li {
+        font-size: 18px;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 20px;
+
+        &:nth-child(even) {
+            color: #fff6e5;
+            font-size: 36px;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+
+    }
+}
+
+.starShapeHeader{
+    position: relative;
+    display: block;
+    color: #FDBB2F;
+    width: 0px;
+    height: 0px;
+    border-right: 30px solid transparent;
+    border-bottom: 21px solid #FDBB2F;
+    border-left: 30px solid transparent;
+    transform: rotate(35deg);
+  }
+  .starShapeHeader:before {
+    border-bottom: 24px solid #FDBB2F;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -13.5px;
+    left: -19.5px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+  .starShapeHeader:after {
+    position: absolute;
+    display: block;
+    color: #FDBB2F;
+    top: 0.9px;
+    left: -31.5px;
+    width: 0px;
+    height: 0px;
+    border-right: 30px solid transparent;
+    border-bottom: 21px solid #FDBB2F;
+    border-left: 30px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+
+
+.racingStripe{
+    display: grid;
+    width: 100vw;
+    height:80px;
+    grid-template-columns: repeat(36, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.blue{
+    background-color: #002E62;
+}
+.darkBlue{
+    background-color: #001F41;
+}
+
+main{
+    height: 65vw;
+    width: 100vw;
+}
+.hero-section {
+    height: 570px;
+    width: 100vw;
+    display: flex;
+
+}
+.mainHeader{
+    height: 570px;
+    width: 890px;
+    margin-left: 40px;
+}
+.NBA{
+    font-size: 225px;
+    color: #fff6e5;
+    line-height: 251px;
+    letter-spacing: -18px;
+
+    &:hover {
+        animation-name: bounce;
+        animation-duration: 1.5s;
+    }
+}
+.allStar{
+    color: #FDBB2F ;
+    font-size: 290px;
+    z-index: 300;
+    line-height: 189.35px;
+
+    &:hover {
+        animation-name: glow;
+        animation-duration: 2s;
+    }
+
+}
+.weekend{
+    font-size: 160px;
+    color: #fff6e5;
+    line-height: 122px;
+    margin-left: 140.96px;
+
+    &:hover {
+        animation-name: bounce;
+        animation-duration: 1.5s;
+    }
+}
+
+
+.year{
+    position: relative;
+    top: -450px;
+    left: 430px;
+
+    /* &:hover {
+        animation-name: spin;
+        animation-duration: 2s;
+    } */
+}
+.starScale{
+    scale: 120%;
+}
+.starShapeHero{
+    position: relative;
+    display: block;
+    color: #FDBB2F;
+    width: 0px;
+    height: 0px;
+    border-right: 70px solid transparent;
+    border-bottom: 49px solid #FDBB2F;
+    border-left: 70px solid transparent;
+    transform: rotate(35deg);
+  }
+.starShapeHero:before{
+    border-bottom: 56px solid #FDBB2F;
+    border-left: 21px solid transparent;
+    border-right: 21px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -31.5px;
+    left: -45.5px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+.starShapeHero:after {
+    position: absolute;
+    display: block;
+    color: #FDBB2F;
+    top: 2.1px;
+    left: -73.5px;
+    width: 0px;
+    height: 0px;
+    border-right: 70px solid transparent;
+    border-bottom: 49px solid #FDBB2F;
+    border-left: 70px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+.yearNumber{
+    position: absolute;
+    font-size: 36px;
+    color: #fff6e5;
+    position: relative;
+    top: -45px;
+    left: 18px;
+    text-decoration: #FDBB2F;
+}
+
+.eventDescription{
+    display: flex;
+    font-size: 24px;
+    color: #fff6e5;
+    width: 441px;
+    margin-left: 93px;
+    align-items: flex-end;
+}
+
+.eventsInfoSection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 275px;
+    margin-top: 75px;
+    justify-content: center;
+}
+.eventsInfoSectionItem{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 460px;
+}
+.eventsInfoSectionItemSat{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 480px;
+}
+.eventsInfoContent{
+    margin-top: 30px;
+}
+h2{
+    color: #FDBB2F;
+    font-size: 40px;
+    &:hover {
+        animation-name: glow;
+        animation-duration: 1s;
+    }
+
+}
+h3{
+    color: #fff6e5;
+    font-size: 24px;
+}
+.time{
+    color: #fff6e5;
+    font-size: 24px;
+}
+.saturdayEvents{
+    
+    li{
+        margin-left: 70px;
+        color: #fff6e5;
+        font-size: 24px;
+    }
+}
+
+footer{
+    height: 80px;
+    width: 100vw;
+    justify-content: space-between;
+    display: flex;
+}
+.playersScroll {
+    list-style-type: none;
+    align-items: center;
+    height: 80px;
+
+    li {
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 20px;
+
+        &:nth-child(even) {
+            color: #fff6e5;
+            font-size: 24px;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+
+    }
+}
+.eastAllStars{
+    margin-bottom: 80px;
+}
+
+.callToAction{
+    position: fixed;
+    top: 91.25%;
+    width: 100%;
+    scale: 100%;
+    
+}
+.rectangle{
+    width: 100%;
+    height: 75px;
+    background-color: #fdbc2f;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.call{
+    z-index: 100;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 53%;
+    color: #fff6e5;
+    font-size: 45px;
+}
+@keyframes opacity {
+    0% {
+        opacity: 100%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-50px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    62.5%{
+        transform: translateY(-25px);
+    }
+    75%{
+        transform: translateY(0);
+    }
+    87.5%{
+        transform: translateY(-12.5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #ffffff00, 0 0 15px #ffc95600, 0 0 20px #ffc95600, 0 0 25px #ffc95600, 0 0 30px #ffc95600, 0 0 35px #ffc95600, 0 0 40px #ffc95600;
+    }
+    
+    50% {
+        text-shadow: 0 0 5px #ffdf99, 0 0 7.5px #ffca56, 0 0 10px #ffca56, 0 0 12.5px #ffca56, 0 0 15px #ffca56, 0 0 17.5px #ffca56, 0 0 20px #ffca56;
+    }
+    100% {
+        text-shadow: 0 0 10px #ffffff00, 0 0 15px #ffc95600, 0 0 20px #ffc95600, 0 0 25px #ffc95600, 0 0 30px #ffc95600, 0 0 35px #ffc95600, 0 0 40px #ffc95600;
+    }
+}

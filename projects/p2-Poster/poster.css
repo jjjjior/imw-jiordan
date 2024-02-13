@@ -129,7 +129,8 @@ header{
 }
 
 main{
-    height: 65vw;
+    /* height: 65vw; */
+    height: 980px;
     width: 100vw;
 }
 .hero-section {

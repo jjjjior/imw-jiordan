@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c49ae2;
+        stroke: #a456b7;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="3.72" y="4.66" width="152.55" height="25.68" rx="3.65" ry="3.65"/>
+</svg>

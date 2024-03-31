@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2d2e43;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        stroke-width: 4px;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #b6b9bc;
+        stroke: #8c9296;
+      }
+
+      .cls-5 {
+        fill: #4a4a4c;
+        stroke: #676869;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #2a3039;
+      }
+
+      .cls-3 {
+        fill: #1c1a1d;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" x="37.54" y="16.97" width="20.57" height="5.1" rx="1.1" ry="1.1"/>
+  <path class="cls-6" d="M15.34,16.97h10.91c.97,0,1.75.78,1.75,1.75v3.94h-14.41v-3.94c0-.97.78-1.75,1.75-1.75Z"/>
+  <path class="cls-6" d="M113.73,17.71h10.91c.97,0,1.75.78,1.75,1.75v3.94h-14.41v-3.94c0-.97.78-1.75,1.75-1.75Z"/>
+  <rect class="cls-4" x="10.63" y="21.95" width="128.74" height="67.36" rx="5.36" ry="5.36"/>
+  <rect class="cls-6" x="51.11" y="20.56" width="47.78" height="15.39" rx="1.56" ry="1.56"/>
+  <path class="cls-6" d="M98.03,20.38h-46.06c-.27,0-.38-.34-.16-.5l16.23-11.65s.1-.05.16-.05h13.6c.06,0,.11.02.16.05l16.23,11.65c.22.16.11.5-.16.5Z"/>
+  <rect class="cls-3" x="10.63" y="43.26" width="128.74" height="39.38"/>
+  <g>
+    <circle class="cls-5" cx="75" cy="63.92" r="26.9"/>
+    <circle class="cls-3" cx="75" cy="63.92" r="23.89"/>
+    <circle class="cls-2" cx="75" cy="63.92" r="17.65"/>
+    <circle class="cls-1" cx="75" cy="63.92" r="13.88"/>
+  </g>
+</svg>

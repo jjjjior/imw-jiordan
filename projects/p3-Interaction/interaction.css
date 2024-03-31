@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+/* BACKGROUND COLOUR */
+body{
+    background-color: #d8d8d8;
+}
+
+/* HEADER PROPERTIES */
+h1{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    color: rgb(230, 212, 52);
+    z-index: 1;
+    width: 100vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    transform: translate(-50%,-100%);
+    top: 100%;
+    left: 50%;
+}
+
+
+
+/* FIRST SHELF LEVEL OBJECT SIZES */
+.shelf{
+    width: 600px;
+    height: 25px;
+}
+.vase{
+    width: 200px;
+    height: 275px;
+}
+.camera{
+    width: 130px;
+    height: 90px;
+}
+.greenbook{
+    width: 225px;
+    height: 25px;
+}
+.lamp{
+    width: 150px;
+    height: 200px;
+}
+
+/* SECOND SHELF LEVEL OBJECT SIZES */
+.shelf2{
+    width: 600px;
+    height: 25px;
+}
+.blackbook{
+    width: 35px;
+    height: 200px;
+}
+.orangebook{
+    width: 185px;
+    height: 25px;
+}
+.greybook{
+    width: 160px;
+    height: 25px;
+}
+.purplebook{
+    width: 160px;
+    height: 25px;
+}
+.totoro{
+    width: 225px;
+    height: 225px;
+}
+.hat{
+    width: 175px;
+    height: 150px;
+}
+
+/* THIRD SHELF LEVEL OBJECT SIZES */
+.shelf3{
+    width: 600px;
+    height: 25px;
+}
+.shoe{
+    width: 290px;
+    height: 175px;
+}
+.candle{
+    width: 150px;
+    height: 150px;
+}
+.bear{
+    width: 150px;
+    height: 250px;
+}
+
+/* FORTH SHELF LEVEL OBJECT SIZES */
+.shelf4{
+    width: 600px;
+    height: 25px;
+}
+.basketball{
+    width: 220px;
+    height: 220px;
+}
+.gamecube{
+    width: 200px;
+    height: 175px;
+}
+
+/* BOTTOM SHELF LEVEL OBJECT SIZES */
+.planter{
+    width: 325px;
+    height: 475px;
+}
+.shoebox{
+    width: 300px;
+    height: 150px;
+}
+
+
+
+/* FIRST SHELF LEVEL ORIGINAL POSITION & SCALE */
+#vaseMove{
+    position: absolute;
+    scale: 200%;
+}
+#shelfMove{
+    position: absolute;
+    scale: 200%;
+}
+#cameraMove{
+    position: absolute;
+    scale: 200%;
+}
+#greenbookMove{
+    position: absolute;
+    scale: 200%;
+}
+#lampMove{
+    position: absolute;
+    scale: 200%;
+}
+
+/* SECOND SHELF LEVEL ORIGINAL POSITION & SCALE*/
+#shelf2Move{
+    position: absolute;
+    scale: 200%;
+}
+#blackbookMove{
+    position: absolute;
+    scale: 200%;
+}
+#orangebookMove{
+    position: absolute;
+    scale: 200%;
+}
+#greybookMove{
+    position: absolute;
+    scale: 200%;
+}
+#purplebookMove{
+    position: absolute;
+    scale: 200%;
+}
+#totoroMove{
+    position: absolute;
+    scale: 200%;
+}
+#hatMove{
+    position: absolute;
+    scale: 200%;
+}
+
+/* THIRD SHELF LEVEL ORIGINAL POSITION & SCALE */
+#shelf3Move{
+    position: absolute;
+    scale: 200%;
+}
+#shoeMove{
+    position: absolute;
+    scale: 200%;
+}
+#candleMove{
+    position: absolute;
+    scale: 200%;
+}
+#bearMove{
+    position: absolute;
+    scale: 200%;
+}
+
+/* FOURTH SHELF LEVEL ORIGINAL POSITION & SCALE */
+#shelf4Move{
+    position: absolute;
+    scale: 200%;
+}
+#basketballMove{
+    position: absolute;
+    scale: 200%;
+}
+#gamecubeMove{
+    position: absolute;
+    scale: 200%;
+}
+
+/* BOTTOM SHELF LEVEL ORIGINAL POSITION & SCALE */
+#planterMove{
+    position: absolute;
+    scale: 200%;
+}
+#shoeboxMove{
+    position: absolute;
+    scale: 200%;
+}
+
+
+
+/* CHANGE AFTER THE WINDOW REACHES A WIDTH OF 600PX */
+@media (max-width: 600px) {
+    
+/* FIRST SHELF LEVEL CHANGED POSITION */
+    #vaseMove{
+        animation-name: vaseMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #shelfMove{
+        animation-name: shelfMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #cameraMove{
+        animation-name: cameraMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #greenbookMove{
+        animation-name: greenbookMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #lampMove{
+        animation-name: lampMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+
+/* SECOND SHELF LEVEL CHANGED POSITION */
+    #shelf2Move{
+        animation-name: shelf2Move;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #blackbookMove{
+        animation-name: blackbookMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #orangebookMove{
+        animation-name: orangebookMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #greybookMove{
+        animation-name: greybookMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #purplebookMove{
+        animation-name: purplebookMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #totoroMove{
+        animation-name: totoroMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #hatMove{
+        animation-name: hatMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+
+/* THIRD SHELF LEVEL CHANGED POSITION */
+    #shelf3Move{
+        animation-name: shelf3Move;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #shoeMove{
+        animation-name: shoeMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #candleMove{
+        animation-name: candleMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #bearMove{
+        animation-name: bearMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    
+/* FOURTH SHELF LEVEL CHANGED POSITION */
+    #shelf4Move{
+        animation-name: shelf4Move;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #basketballMove{
+        animation-name: basketballMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #gamecubeMove{
+        animation-name: gamecubeMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+
+/* BOTTOM SHELF LEVEL CHANGED POSITION */
+    #planterMove{
+        animation-name: planterMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+    #shoeboxMove{
+        animation-name: shoeboxMove;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        scale: 100%;
+    }
+
+
+
+/*ORIGINAL HEADER CHANGES*/
+    h1{
+        visibility: hidden;
+    }
+}
+
+
+/* ANIMATIONS FROM ORIGINAL POSITION TO NEW */
+
+/* FIRST SHELF LEVEL OBJECTS ANIMATION */
+@keyframes vaseMove {
+    to {left: 25px; top: 25px}
+}
+@keyframes shelfMove {
+    to {left: 0px; top: 275px}
+}
+@keyframes cameraMove {
+    to {left: 215px; top: 220px}
+}
+@keyframes greenbookMove {
+    to {left: 350px; top: 258px}
+}
+@keyframes lampMove {
+    to {left: 393px; top: 78px}
+}
+
+/* SECOND SHELF LEVEL OBJECTS ANIMATION */
+@keyframes shelf2Move {
+    to {left: 0px; top: 500px}
+}
+@keyframes blackbookMove {
+    to {left: 15px; top: 325px}
+}
+@keyframes orangebookMove {
+    to {left: 43px; top: 490px;}
+}
+@keyframes greybookMove {
+    to {left: 45px; top: 461px}
+}
+@keyframes purplebookMove {
+    to {left: 45px; top: 433px}
+}
+@keyframes totoroMove {
+    to {left: 204px; top: 303px}
+}
+@keyframes hatMove {
+    to {left: 410px; top: 385px}
+}
+
+/* THIRD SHELF LEVEL OBJECTS ANIMATION */
+@keyframes shelf3Move {
+    to {left: 0px; top: 760px}
+}
+@keyframes shoeMove {
+    to {left: 12px; top: 624px}
+}
+@keyframes candleMove {
+    to {left: 310px; top: 644px}
+}
+@keyframes bearMove {
+    to {left: 440px; top: 534px}
+}
+
+/* FORTH SHELF LEVEL OBJECTS ANIMATION */
+@keyframes shelf4Move {
+    to {left: 0px; top: 979px}
+}
+@keyframes basketballMove {
+    to {left: 170px; top: 789px}
+}
+@keyframes gamecubeMove {
+    to {left: 380px; top: 850px}
+}
+
+/* BOTTOM SHELF LEVEL OBJECTS ANIMATION */
+@keyframes planterMove {
+    to {left: 0px; top: 775px}
+}
+@keyframes shoeboxMove {
+    to {left: 277px; top: 1050px}
+}
+

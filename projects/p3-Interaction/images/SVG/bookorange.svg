@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185 35">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-2 {
+        fill: #e1a658;
+        stroke: #d67f16;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: #1e1e1e;
+        font-family: RocGrotesk-Medium, 'Roc Grotesk';
+        font-size: 15px;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="5.8" y="5.41" width="173.4" height="25.68" rx="3.89" ry="3.89"/>
+  <text class="cls-6" transform="translate(32.67 22.85)"><tspan x="0" y="0">MANU</tspan><tspan class="cls-4" x="45.27" y="0">F</tspan><tspan class="cls-1" x="52.11" y="0">A</tspan><tspan class="cls-3" x="62.23" y="0">C</tspan><tspan class="cls-5" x="72.73" y="0">TURES</tspan></text>
+</svg>

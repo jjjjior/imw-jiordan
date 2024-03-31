@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 200">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #e5e5e5;
+        font-family: NHaasGroteskDSPro-65Md, 'Neue Haas Grotesk Display Pro';
+        font-size: 21px;
+        font-weight: 500;
+      }
+
+      .cls-4 {
+        fill: #1e1e1e;
+        stroke: #141414;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.04em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" x="-77.05" y="87.16" width="189.1" height="25.68" rx="4.06" ry="4.06" transform="translate(117.5 82.5) rotate(90)"/>
+  <text class="cls-3" transform="translate(10.34 25.5) rotate(90)"><tspan class="cls-7" x="0" y="0">T</tspan><tspan class="cls-2" x="12.1" y="0">OM </tspan><tspan class="cls-6" x="48.2" y="0">F</tspan><tspan x="60.25" y="0">ORD 0</tspan><tspan class="cls-5" x="120.31" y="0">0</tspan><tspan class="cls-1" x="133.48" y="0">2</tspan></text>
+</svg>

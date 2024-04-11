@@ -1,0 +1,230 @@
+//damn
+  $().ready(function(){
+    $(".damn").hover(function(){
+      $(".damn").toggleClass("albumAfter");
+      $("#p1").toggleClass("titleAfter")
+      $("#damnText").toggleClass("textAfter")
+      $("#damnCover").toggleClass("decorAfter")
+    },
+    function(){
+      $(".damn").removeClass("albumAfter");
+      $("#p1").removeClass("titleAfter");
+      $("#damnText").removeClass("textAfter")
+      $("#damnCover").removeClass("decorAfter")
+    }
+  )
+  });
+
+//Funk Wav Bounces vol.1
+  $().ready(function(){
+    $(".FWB-v1").hover(function(){
+      $(".FWB-v1").toggleClass("albumAfter");
+      $("#pb1").toggleClass("titleAfter")
+    },
+    function(){
+      $(".FWB-v1").removeClass("albumAfter");
+      $("#pb1").removeClass("titleAfter");
+    }
+  )
+  });
+
+//blond
+  $().ready(function(){
+    $(".blond").hover(function(){
+      $(".blond").toggleClass("albumAfter");
+      $("#p2").toggleClass("titleAfter")
+    },
+    function(){
+      $(".blond").removeClass("albumAfter");
+      $("#p2").removeClass("titleAfter");
+    }
+  )
+  });
+
+//channel orange
+    $().ready(function(){
+    $(".channelOrange").hover(function(){
+      $(".channelOrange").toggleClass("albumAfter");
+      $("#pb2").toggleClass("titleAfter")
+      $("#pb22").toggleClass("titleAfter")
+      $("#channelOrangeText").toggleClass("textAfter")
+      $("#channelOrangeDecor").toggleClass("decorAfter")
+    },
+    function(){
+      $(".channelOrange").removeClass("albumAfter");
+      $("#pb2").removeClass("titleAfter");
+      $("#pb22").removeClass("titleAfter");
+      $("#channelOrangeText").removeClass("textAfter")
+      $("#channelOrangeDecor").removeClass("decorAfter")
+    }
+  )
+  });
+ 
+//if youre reading this its too late
+$().ready(function(){
+  $(".ifrtitl").hover(function(){
+    $(".ifrtitl").toggleClass("albumAfter");
+    $("#p3").toggleClass("titleAfter")
+  },
+  function(){
+    $(".ifrtitl").removeClass("albumAfter");
+    $("#p3").removeClass("titleAfter");
+  }
+)
+});
+
+//moreLife
+$().ready(function(){
+  $(".moreLife").hover(function(){
+    $(".moreLife").toggleClass("albumAfter");
+    $("#pb3").toggleClass("titleAfter")
+  },
+  function(){
+    $(".moreLife").removeClass("albumAfter");
+    $("#pb3").removeClass("titleAfter");
+  }
+)
+});
+
+//houseOfBalloons
+$().ready(function(){
+  $(".houseOfBalloons").hover(function(){
+    $(".houseOfBalloons").toggleClass("albumAfter");
+    $("#e2").toggleClass("titleAfter")
+  },
+  function(){
+    $(".houseOfBalloons").removeClass("albumAfter");
+    $("#e2").removeClass("titleAfter");
+  }
+)
+});
+
+//starboy
+$().ready(function(){
+  $(".starboy").hover(function(){
+    $(".starboy").toggleClass("albumAfter");
+    $("#e3").toggleClass("titleAfter")
+  },
+  function(){
+    $(".starboy").removeClass("albumAfter");
+    $("#e3").removeClass("titleAfter");
+  }
+)
+});
+
+//4:44
+$().ready(function(){
+  $(".fourfortyfour").hover(function(){
+    $(".fourfortyfour").toggleClass("albumAfter");
+    $("#e4").toggleClass("titleAfter")
+  },
+  function(){
+    $(".fourfortyfour").removeClass("albumAfter");
+    $("#e4").removeClass("titleAfter");
+  }
+)
+});
+
+//scaryHours
+$().ready(function(){
+  $(".scaryHours").hover(function(){
+    $(".scaryHours").toggleClass("albumAfter");
+    $("#e5").toggleClass("titleAfter")
+  },
+  function(){
+    $(".scaryHours").removeClass("albumAfter");
+    $("#e5").removeClass("titleAfter");
+  }
+)
+});
+
+//ihbbia
+$().ready(function(){
+  $(".ihbbia").hover(function(){
+    $(".ihbbia").toggleClass("albumAfter");
+    $("#e6").toggleClass("titleAfter")
+  },
+  function(){
+    $(".ihbbia").removeClass("albumAfter");
+    $("#e6").removeClass("titleAfter");
+  }
+)
+});
+
+//wasteland
+$().ready(function(){
+  $(".wasteland").hover(function(){
+    $(".wasteland").toggleClass("albumAfter");
+    $("#e7").toggleClass("titleAfter")
+  },
+  function(){
+    $(".wasteland").removeClass("albumAfter");
+    $("#e7").removeClass("titleAfter");
+  }
+)
+});
+
+//tlop
+$().ready(function(){
+  $(".tlop").hover(function(){
+    $(".tlop").toggleClass("albumAfter");
+    $("#e8").toggleClass("titleAfter")
+  },
+  function(){
+    $(".tlop").removeClass("albumAfter");
+    $("#e8").removeClass("titleAfter");
+  }
+)
+});
+
+//silkSonic
+$().ready(function(){
+  $(".silkSonic").hover(function(){
+    $(".silkSonic").toggleClass("albumAfter");
+    $("#rr1").toggleClass("titleAfter")
+  },
+  function(){
+    $(".silkSonic").removeClass("albumAfter");
+    $("#rr1").removeClass("titleAfter");
+  }
+)
+});
+
+//americanTeen
+$().ready(function(){
+  $(".americanTeen").hover(function(){
+    $(".americanTeen").toggleClass("albumAfter");
+    $("#rr2").toggleClass("titleAfter")
+  },
+  function(){
+    $(".americanTeen").removeClass("albumAfter");
+    $("#rr2").removeClass("titleAfter");
+  }
+)
+});
+
+//goblin
+$().ready(function(){
+  $(".goblin").hover(function(){
+    $(".goblin").toggleClass("albumAfter");
+    $("#rr3").toggleClass("titleAfter")
+  },
+  function(){
+    $(".goblin").removeClass("albumAfter");
+    $("#rr3").removeClass("titleAfter");
+  }
+)
+});
+
+//untitledUnmastered
+$().ready(function(){
+  $(".untitledUnmastered").hover(function(){
+    $(".untitledUnmastered").toggleClass("albumAfter");
+    $("#sources").toggleClass("titleAfter")
+  },
+  function(){
+    $(".untitledUnmastered").removeClass("albumAfter");
+    $("#sources").removeClass("titleAfter");
+  }
+)
+});

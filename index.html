@@ -1,53 +1,332 @@
-<html>
-    <head>
-        <title>Index</title>
-        <link rel="icon" type="image/png" href="exercises/e9-Favicon/my_favicon.png">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJJJior's Redio</title>
+    <link rel="icon" type="image/png" href="exercises/e9-Favicon/my_favicon.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
-    <body>
-        <h1>This is my index</h1>
-        <p>Start of the Index Project</p>
-        <a href="exercises/e2-Grid/painting1.html">
-            <h2>Exercise 2</h2>
-        </a>
-        <a href="exercises/e3-FontsAndAnimation/fontsAndAnimation.html">
-            <h2>Exercise 3</h2>
-        </a>
-        <a href="exercises/e4-Flexbox/flexbox.html">
-            <h2>Exercise 4: flexbox</h2>
-        </a>
-        <a href="exercises/e5-Responsiveness/responsiveness.html">
-            <h2>Exercise 5</h2>
-        </a>
-        <a href="exercises/e6-Javascript/javascript.html">
-            <h2>Exercise 6</h2>
-        </a>
-        <a href="exercises/e7-JQuery/jqueryExercise.html">
-            <h2>Exercise 7</h2>
-        </a>
-        <a href="exercises/e8-JSON/JiordanRoque_JSON/JSON.html">
-            <h2>Exercise 8</h2>
-        </a>
-        <a href="projects/p1-Storybook/frame1.html">
-            <h2>A1-Storybook "UNTIL THE DAY REACHES NIGHT"</h2>
-        </a>
-        <a href="projects/p1-Storybook/a1-process-template.html">
-            <h2>A1-Processbook</h2>
-        </a>
-        <a href="projects/p2-Poster/poster.html">
-            <h2>P2-Poster "2024 NBA All Star weekend"</h2>
-        </a>
-        <a href="projects/p2-Poster/a2-process-template.html">
-            <h2>A2-Processbook</h2>
-        </a>
-        <a href="projects/p3-Interaction/interaction.html">
-            <h2>P3-Interaction "Organize My Shelf"</h2>
-        </a>
-        <a href="projects/p3-Interaction/a3-process-template.html">
-            <h2>A3-Processbook</h2>
-        </a>
-        
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://use.typekit.net/hpa6vdt.css">
 
-    </body>
+</head>
+<body>
+    
+    <!-- Header -->
+    <div class="title">
+        <h1 class="radioFont jjjjiorText">JJJJior's</h1>
+        <h1 class="radioFont radioText">Radio</h1>
+    </div>
 
+    <!-- Vinyl Shelf -->
+    <div class="shelf">
+        <div class="topShelf"></div>
+        <div class="container">
+            <div class="gallery">
+
+                <a style="color:#E43324"; href="projects/p1-Storybook/frame1.html">
+                    <div class="album damn">
+                        <div id="damnCover">
+                            <div class="damnShirt"></div>
+                            <div class="damnHead"></div>
+                            <h3 id="damnText" >PROJECT 1.</h3>
+                        </div>
+                        <h2 id="p1">PROJECT 1</h2>
+                    </div>
+                </a>
+
+                <a style="color:#ffffff" href="projects/p1-Storybook/a1-process-template.html">
+                    <div class="album FWB-v1">
+                        <div id="FWB-v1Cover">
+                            <h3 id="FWB-v1Artist" >JJJJIOR </h3>
+                            <div class="FWB-v1Rectangle"></div>
+                            <h3 id="FWB-v1Text" >PROCESS BOOK VOL.1 </h3>
+                        </div>
+                        <h2 id="pb1">Project 1 Process Book</h2>
+                    </div>
+
+                </a>
+
+                <a style="color:#050505" href="projects/p2-Poster/poster.html">
+                    <div class="album blond">
+
+                        <div id="blondCover">
+                            <h3 class="blondFont" id="blondText" >project 2 </h3>
+
+                            <div id="blondImage">
+                                <div class="blondBody"></div>
+                                <div class="blondHead">
+                                    <div class="blondHair"></div>
+                                </div>
+                                <div class="blondArm"></div>
+                                <div class="blondHand"></div>
+                            </div>
+                        </div>
+                        <h2 class="blondFont" id="p2">Project 2</h2>
+                    </div>
+                </a>
+
+                <a style="color:#ffffff" href="projects/p2-Poster/poster.html">
+                    <div class="album channelOrange">
+
+                        <div id="channelOrangeCover">
+                            <h3 class="channelFont" id="channelText">Project 2</h3>
+                            <h3 class="channelFont" id="channelTextBlur">Project 2</h3>
+                            <h3 class="orangeFont" id="orangeText">PROCESS BOOK</h3>
+                        </div>
+
+
+                        <h2 id="pb2" class="channelFont">Project 2</h2> <h2 class="orangeFont" id="pb22">Process Book</h2>
+                    </div>
+                </a>
+
+                <a style="color:#050505" href="projects/p3-Interaction/interaction.html">
+                    <div class="album ifrtitl">
+                        <div id="ifrtitlCover">
+                            <h3 class="ifrtitlFont" id="ifrtitlText">IF YOURE READING THIS ITS PROJECT 3</h3>
+                        </div>
+                        <h2 class="ifrtitlFont" id="p3">PROJECT 3</h2>
+                    </div>
+                </a>
+
+                <a style="color:#0F63A9" href="projects/p3-Interaction/a3-process-template.html">
+                    <div class="album moreLife">
+                        <div id="moreLifeCover">
+                            <h3 class="moreLifeFont1" id="moreLifeText1" >PROJECT 3 PROCESS BOOK</h3>
+
+                            <div id="moreLifeImage">
+                                <div class="moreLifeWhite">
+                                    <div class="moreLifeBlack1"></div>
+                                    <div class="moreLifeBlack2"></div>
+                                </div>
+                                <div class="moreLifeHair">
+                                    <div class="moreLifeHead"></div>
+                                </div>
+                                <div class="moreLifeHand1"></div>
+                                <div class="moreLifeHand2"></div>
+                                <div class="moreLifePaper"></div>
+                            </div>
+
+                            <h3 class="moreLifeFont2" id="moreLifeText2" > An Assignment By Jjjjior </h3>
+
+                        </div>
+
+                        <h2 class="moreLifeFont1" id="pb3">Project 3 Process Book</h2>
+                    </div>
+                </a>
+
+                <a style="color:#050505" href="exercises/e2-Grid/painting1.html">
+                    <div class="album houseOfBalloons">
+                        <div id="houseOfBalloonsCover">
+                            <h3 class="houseOfBalloonsFont" id="houseOfBalloonsText1">Exercise 2</h3>                            
+                            <h3 class="houseOfBalloonsFont" id="houseOfBalloonsText2">Grid Painting</h3>
+                            <div class="houseOfBalloonsGreyscale"></div>
+                            <div class="houseOfBalloonsImage">
+                                <div class="houseOfBalloonsBody"></div>
+                                <div class="houseOfBalloonsArm1"></div>
+                                <div class="houseOfBalloonsArm2"></div>
+                                <div class="houseOfBalloonsBlack1"></div>
+                                <div class="houseOfBalloonsBlack2"></div>
+                                <div class="houseOfBalloonsBlack3"></div>
+                                <div class="houseOfBalloonsBlack4"></div>
+                                <div class="houseOfBalloonsBlack5"></div>
+                                <div class="houseOfBalloonsBlack6"></div>
+                                <div class="houseOfBalloonsBlack7"></div>
+                                <div class="houseOfBalloonsBlack8"></div>
+                                <div class="houseOfBalloonsBlack9"></div>
+                                <div class="houseOfBalloonsWhite1"></div>
+                                <div class="houseOfBalloonsWhite2"></div>
+                                <div class="houseOfBalloonsWhite3"></div>
+                                <div class="houseOfBalloonsWhite4"></div>
+                                <div class="houseOfBalloonsWhite5"></div>
+                                <div class="houseOfBalloonsWhite6"></div>
+                                <div class="houseOfBalloonsWhiteRect"></div>
+
+                            </div>
+                        </div>
+                        <h2 id="e2" class="houseOfBalloonsFont">Exercise 2</h2>
+                    </div>
+                </a>
+
+                <a style="color:#E8BB01" href="exercises/e3-FontsAndAnimation/fontsAndAnimation.html">
+                    <div class="album starboy">
+                        <div id="starboyCover">
+                            <h3 class="starboyFont" id="starboyText">EXERCISE 3</h3>
+                            <div class="starboyCouch"></div>
+                            <div class="starboyBody"></div>
+                            <div class="starboyHead"></div>   
+                            <div class="starboyHair"></div>
+                            <div class="starboyArm1"></div>
+                            <div class="starboyArm2"></div>
+                            <div class="starboyHand1"></div>
+                            <div class="starboyHand2"></div>
+
+                        </div>
+                        
+                        <h2 class="starboyFont" id="e3">EXERCISE 3</h2>
+                    </div>
+                </a>
+
+                <a style="color:#050505" href="exercises/e4-Flexbox/flexbox.html">
+                    <div class="album fourfortyfour">
+                        <div id="fourfortyfourCover">
+                            <h3 class="fourfortyfourFont" id="fourfortyfourText1">THIS IS HIS 4TH EXERCISE</h3>
+                            <h3 class="fourfortyfourFont" id="fourfortyfourText2"> 4:44</h3>
+                        </div>
+                        <h2 class="fourfortyfourFont" id="e4">EXERCISE 4:44</h2>
+                    </div>
+                </a>
+
+                <a style="color:#FA3450" href="exercises/e5-Responsiveness/responsiveness.html">
+                    <div class="album scaryHours">
+                        <div id="scaryHoursCover">
+                            <h3 class="scaryHoursFont1" id="scaryHoursText1">E X E R C I S E 5</h3>
+                            <h3 class="scaryHoursFont2" id="scaryHoursText2">E X E R C I S E 5</h3>
+                        </div>
+
+                        <h2 class="scaryHoursFont2" id="e5">Exercise 5</h2>
+                    </div>
+                </a>
+
+                <a style="color:#40D074" href="exercises/e6-Javascript/javascript.html">
+                    <div class="album ihbbia">
+                        <div id="ihbbiaCover">
+                            <div class="ihbbiaSky"></div>
+                            <div class="ihbbiaMountain1"></div>
+                            <div class="ihbbiaMountain2"></div>
+                            <div class="ihbbiaMountain3"></div>
+                            <div class="ihbbiaMountain4"></div>
+                            <div class="ihbbiaMountain5"></div>
+                            <div class="ihbbiaMountain6"></div>
+                            <div class="ihbbiaLand"></div>
+                            <h3 class="ihbbiaFont" id="ihbbiaText">I hate <br> Exercise 6 <br> its awesome</h3>
+                        </div>
+                        <h2 class="ihbbiaFont" id="e6">Exercise 6</h2>
+                    </div>
+                </a>
+
+                <a style="color:#AA6567" href="exercises/e7-JQuery/jqueryExercise.html">
+                    <div class="album wasteland">
+                        <div id="wastelandCover">
+                            <div class="wastelandImage1">
+                                <div class="wastelandImage1head"></div>
+                                <div class="wastelandImage1body"></div>
+                            </div>
+                            <div class="wastelandImage2">
+                                <div class="wastelandImage2head"></div>
+                                <div class="wastelandImage2body"></div>
+                            </div>
+                            <div class="wastelandImage3">
+                                <div class="wastelandImage3head"></div>
+                                <div class="wastelandImage3body"></div>
+                            </div>
+                            <h3 class="wastelandFont" id="wastelandText">EXERCISE 7</h3>
+                        </div>
+                        <h2 class="wastelandFont" id="e7">EXERCISE 7</h2>
+                    </div>
+                </a>
+
+                <a style="color:#050505" href="exercises/e8-JSON/JiordanRoque_JSON/JSON.html">
+                    <div class="album tlop">
+                        <div id="tlopCover">
+                            <h3 class="tlopFont" id="tlopText1">
+                                EXERCISE 8<br>
+                                EXERCISE 8<br>
+                                EXERCISE 8<br>
+                                EXERCISE 8<br>
+                                EXERCISE 8<br>
+                                EXERCISE 8<br>
+                                <br>
+                                EXERCISE 8<br></h3>
+                            <h3 class="tlopFont" id="tlopText2">
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br></h3>
+                            <h3 class="tlopFont" id="tlopText3">
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br>
+                                JSON<br></h3>
+                            <div class="tlopImage1"></div>
+                            <div class="tlopImage2"></div>
+                        </div>
+
+                        <h2 class="tlopFont" id="e8">EXERCISE 8</h2>
+                    </div>
+                </a>
+
+                <a style="color:#704137" href="readings/r3/r1.html">
+                    <div class="album silkSonic">
+                        <div id="silkSonicCover">
+                            <div class="silkSonicOutline"></div>
+                            <div class="silkSonicBrunoHair"></div>
+                            <div class="silkSonicBrunoFace"></div>
+                            <div class="silkSonicPaakHair"></div>
+                            <div class="silkSonicPaakFace"></div>
+                            <h3 class="silkSonicFont" id="silkSonicText1">Reading Response 1</h3>
+                        </div>
+
+                        <h2 class="silkSonicFont" id="rr1">Reading Response 1</h2>
+                    </div>
+                </a>
+
+                <a style="color:#ffffff" href="readings/r3/r2.html">
+                    <div class="album americanTeen">
+                        <div id="americanTeenCover">
+                            <div class="americanTeenMountain"></div>
+                            <div class="americanTeenHair"></div>
+                            <div class="americanTeenHead"></div>
+                            <div class="americanTeenBody"></div>
+                            <div class="americanTeenLeg1"></div>
+                            <div class="americanTeenLeg2"></div>
+                            <h3 class="americanTeenFont" id="americanTeenText1">Reading <br>Response 2</h3>
+                        </div>
+                        <h2 class="americanTeenFont" id="rr2">Reading Response 2</h2>
+                    </div>
+                </a>
+
+                <a style="color:#F62F9D" href="readings/r3/r3.html">
+                    <div class="album goblin">
+                        <div id="goblinCover">
+                            <div class="goblinBody"></div>
+                            <div class="goblinHat"></div>
+                            <div class="goblinFace"></div>
+                            <h3 class="goblinFont" id="goblinText1">READING <br>RESPONSE 3</h3>
+                        
+                        </div>
+                        <h2 class="goblinFont" id="rr3">READING RESPONSE 3</h2>
+                    </div>
+                </a>
+
+                <a style="color:#ffffff" href="sources.html">
+                    <div class="album untitledUnmastered">
+                        <div id="untitledUnmasteredCover">
+                            <div class="untitledUnmasteredFont" id="untitledUnmasteredText">sources.</div>
+                        </div>
+                        <h2 class="untitledUnmasteredFont" id="sources">sources</h2>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+        <div class="bottomShelf"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
 </html>

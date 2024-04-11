@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-zoom:1.0">
+  	<meta charset="utf-8">
+    <title>Sources</title>
+    <style>
+        /* Move all CSS to a stylesheet */
+        * { /* Remove default browser spacing */
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 100px; /* Add spacing around the entire page */ 
+            font-size: 12px; /* Setting baseline font size */ 
+        }
+
+        /* Start of text sizes */
+        h1 {
+            font-size: 4em;
+        }
+        h2 {
+            font-size: 3em;
+        }
+        p {
+            font-size: 2em;
+            line-height: 1.5em;
+        }
+        figcaption {
+            font-size: 1.25em;
+        }
+        /* End of text sizes */
+
+        /* Start of spacing and layout */
+        h2, p, figure, figcaption {
+            margin-bottom: 40px;
+        }
+        img {
+            margin-bottom: 10px;
+        }
+        .process-template {
+            width: 60%; /* Set the width of the template to 60% of the viewport. */
+            margin: auto; /* Center align the template by adding auto margins to the left and right */
+        }
+        .title {
+            margin-bottom: 100px; /* Add spacing to the bottom of the title div */
+        }
+
+        .section {
+            margin-bottom: 100px;
+        }
+        /* End of spacing and layout */
+
+        /* Adding media queries for page to adapts to tablet and mobile devices */
+        @media (max-width: 991px) {
+            .process-template {
+                width: 60%;
+            }
+        }
+
+        @media (max-width:767px) {
+            body {
+                margin: 40px;
+                font-size: 10px;
+            }
+            .process-template {
+                width: 100%;
+            }
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="process-template">
+        <!-- Start of title -->
+        <div class="title">
+            <h1>Sources</h1>
+        </div>
+        <!-- End of title -->
+        <!-- Start of content -->
+        <div class="content">
+            <!-- Start of a section -->
+            <div class="section">
+                <h2>How to Create Expanding Cards</h2>
+                <a href="https://www.youtube.com/watch?v=69FkUGpw3ok">
+                    <p>
+                        Referenced to create the albums
+                    </p>
+                </a>
+                <!-- Start of a section -->
+                <!-- Start of image with caption -->
+                <figure>
+                    <img src="sourceImages/cards.png" alt="This text should describe the image" width="100%">
+                  </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a section -->
+            <!-- Start of a section -->
+            <div class="section">
+                <h2>Guide to Flex Boxes</h2>
+                <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
+                    <p>
+                        Referenced to create placement andanimation of the interactivity with the albums
+                    </p>
+                </a>
+                <!-- Start of a section -->
+                <!-- Start of image with caption -->
+                <figure>
+                    <img src="sourceImages/fle.png" alt="This text should describe the image" width="100%">
+                  </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a section -->
+            <!-- Start of a section -->
+            <div class="section">
+                <h2>CSS Gradient tool</h2>
+                <a href="https://cssgradient.io/">
+                    <p>
+                        Used to create gradients for images efficiently
+                    </p>
+                </a>
+                <!-- Start of a section -->
+                <!-- Start of image with caption -->
+                <figure>
+                    <img src="sourceImages/gradient.png" alt="This text should describe the image" width="100%">
+                  </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a section -->
+            <a href="index.html">
+                <h2>Link to Homepage</h2>
+            </a>
+        </div>
+        <!-- End of content -->
+    </div>
+  </body>
+</html>
